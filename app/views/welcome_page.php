@@ -574,7 +574,7 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 <div class="hero wrap">
     <div class="badge">v<?php echo config_item('VERSION') ?? '4.x'; ?> — Now Available</div>
     <h1>
-        <span class="word-lava">Lava</span><span class="word-lust">Lust</span><br>Framework
+        <span class="word-lava">Hi Sir!</span><span class="word-lust">Lust</span><br>Framework
     </h1>
     <p class="hero-sub">
         A lightweight, expressive PHP MVC framework built for developers who want structure without the bloat.
