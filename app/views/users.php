@@ -1133,38 +1133,21 @@
 
 
                         <?php if (!empty($users)): ?>
-
-
                             <?php foreach ($users as $user): ?>
-
-
                                 <tr>
-
-
                                     <!-- ID -->
-
                                     <td>
 
                                         <span class="id-badge">
-
                                             #<?= html_escape(
                                                 $user['id'] ?? ''
                                             ); ?>
-
                                         </span>
-
                                     </td>
-
-
                                     <!-- FIRST NAME -->
-
                                     <td>
-
                                         <div class="name-cell">
-
-
                                             <div class="avatar">
-
                                                 <?= strtoupper(
                                                     substr(
                                                         $user['firstname'] ?? 'U',
